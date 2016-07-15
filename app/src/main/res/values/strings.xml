@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Тест</string>
+    <string name="login">Идентификация</string>
+    <string name="str_ok">Применить</string>
+    <string name="str_cansel">Отмена</string>
+    <string name="identiti">Идентификация</string>
+    <string name="str_name">Имя:</string>
+    <string name="str_lastname">Фамилия:</string>
+    <string name="str_email">Мейл:</string>
+    <string name="str_address">Адрес:</string>
+    <string name="call">Позвонить</string>
+    <string name="str_phone">Номер телефона:</string>
+    <string name="str_incorect_data">Не верные данные</string>
+    <string name="str_incorect_phone_number">Не верный номер</string>
+    <string name="str_send_mail">Письмо</string>
+    <string name="str_no_data">Нет данных</string>
+    <string name="save">Сохранить</string>
+    <string name="load">Востановить</string>
+    <string name="str_add">Добавить</string>
+    <string name="str_contacts">Контакты</string>
+
+    <string name="gps">GPS:</string>
+    <string name="net">Net:</string>
+    <string name="longitude">Долгота:</string>
+    <string name="latitude">Широта:</string>
+    <string name="time">Время:</string>
+    <string name="active">Активен:</string>
+    <string name="state">Статус:</string>
+    <string name="settings">Настройки</string>
+    <string name="my_loc">Моя локация</string>
+    <string name="show_on_map">Показать на карте</string>
+</resources>

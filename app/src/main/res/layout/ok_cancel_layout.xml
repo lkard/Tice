@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/my_second_background">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true">
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/str_ok"
+        android:id="@+id/ocl_btn_ok"
+        android:layout_weight="1"
+        android:onClick="OnGoBackBtnClick"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ocl_btn_cancel"
+        android:layout_gravity="right"
+        android:text="@string/str_cansel"
+        android:layout_weight="1"
+        android:onClick="OnCancelBtnClick"/>
+    </LinearLayout>
+</RelativeLayout>

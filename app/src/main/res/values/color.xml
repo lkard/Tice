@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="my_first_background">#ff9c27b0</color>
+    <color name="my_second_background">#ff19f9ec</color>
+    <color name="my_main_text_background">#7be816</color>
+</resources>

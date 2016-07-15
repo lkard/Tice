@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools = "http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentTop="true"
+    android:layout_centerHorizontal="true"
+    android:background="@color/my_second_background">
+
+    <fragment
+        android:name="lkard.com.test.fragments.ChangeUserDataFragment"
+        android:id="@+id/cud_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout ="@layout/change_user_data_layout"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" />
+    <fragment
+        android:name="lkard.com.test.fragments.OkCancelFragment"
+        android:id="@+id/oc_fragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout ="@layout/ok_cancel_layout"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>
